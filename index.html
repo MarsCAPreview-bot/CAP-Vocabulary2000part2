@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#317a63">
+  <title>七年級英文互動學習</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#lesson">跳到課文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">English Learning Lab</p>
+        <h1>七年級英文互動學習</h1>
+        <p class="subtitle">點句子看翻譯與文法・點單字卡看解釋・按喇叭聽發音</p>
+      </div>
+      <button id="helpBtn" class="icon-button" type="button" aria-haspopup="dialog">使用說明</button>
+    </div>
+  </header>
+
+  <nav class="unit-nav" aria-label="單元選擇">
+    <div id="unitTabs" class="tabs" role="tablist"></div>
+  </nav>
+
+  <main id="lesson" class="page-shell">
+    <section class="lesson-heading" aria-labelledby="unitTitle">
+      <div>
+        <p id="unitKind" class="section-kicker"></p>
+        <h2 id="unitTitle"></h2>
+      </div>
+      <div class="lesson-actions">
+        <button id="toggleAllBtn" class="secondary-button" type="button">全部顯示</button>
+        <button id="resetBtn" class="secondary-button" type="button">重新開始</button>
+      </div>
+    </section>
+
+    <section aria-labelledby="readingHeading">
+      <div class="section-title-row">
+        <div>
+          <p class="section-kicker">READING</p>
+          <h3 id="readingHeading">課文閱讀</h3>
+        </div>
+        <p class="tap-hint">點擊各句翻面</p>
+      </div>
+      <div id="sentenceList" class="sentence-list"></div>
+    </section>
+
+    <section class="vocab-section" aria-labelledby="vocabHeading">
+      <div class="section-title-row">
+        <div>
+          <p class="section-kicker">VOCABULARY</p>
+          <h3 id="vocabHeading">互動單字卡</h3>
+        </div>
+        <p class="tap-hint">按喇叭聽發音・點卡片看解釋</p>
+      </div>
+      <div id="vocabGrid" class="vocab-grid"></div>
+    </section>
+  </main>
+
+  <footer>適合 iPad 與手機使用・學習進度只保存在目前的裝置</footer>
+
+  <dialog id="helpDialog">
+    <div class="dialog-card">
+      <button id="closeHelpBtn" class="dialog-close" type="button" aria-label="關閉">×</button>
+      <p class="section-kicker">HOW TO USE</p>
+      <h2>使用方式</h2>
+      <ol>
+        <li>從上方分頁選擇 Unit。</li>
+        <li>點擊英文句子，查看中文翻譯和重要文法。</li>
+        <li>在單字卡按喇叭聆聽發音；點卡片查看中文、音標和詞性。</li>
+        <li>再次點擊即可翻回英文；「重新開始」會收起目前單元的所有解釋。</li>
+      </ol>
+      <button id="gotItBtn" class="primary-button" type="button">我知道了</button>
+    </div>
+  </dialog>
+
+  <noscript>這個互動網站需要開啟 JavaScript 才能使用。</noscript>
+  <script src="app.js"></script>
+</body>
+</html>
