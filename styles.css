@@ -54,14 +54,14 @@ h1 { font-size: clamp(1.65rem, 4vw, 2.35rem); line-height: 1.15; margin: 0; lett
 .sentence-back { display: none; background: var(--blue-soft); }
 .sentence-card.is-flipped .sentence-front { display: none; }
 .sentence-card.is-flipped .sentence-back { display: block; }
+.back-english { display: block; margin: 0 0 10px; color: var(--ink); font-size: 1rem; font-weight: 750; line-height: 1.55; }
 .translation { margin: 0 0 10px; color: #9b422d; font-size: 1rem; font-weight: 750; line-height: 1.55; }
 .grammar { margin: 0; padding-top: 10px; border-top: 1px solid #cadbdf; line-height: 1.55; font-size: .93rem; }
 .grammar strong { color: var(--green-dark); }
 .vocab-section { margin-top: 38px; }
 .vocab-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 13px; }
-.word-card { position: relative; min-height: 178px; padding: 19px 16px; border: 1px solid #e6d7aa; border-radius: 16px; background: var(--gold-soft); color: var(--ink); text-align: left; cursor: pointer; box-shadow: var(--shadow); }
-.word-card:nth-child(3n+1) { background: var(--green-soft); border-color: #bfddcf; }
-.word-card:nth-child(3n+2) { background: var(--blue-soft); border-color: #cfdee2; }
+.word-card { position: relative; min-height: 178px; padding: 19px 16px; border: 1px solid #bfddcf; border-radius: 16px; background: var(--green-soft); color: var(--ink); text-align: left; cursor: pointer; box-shadow: var(--shadow); }
+.word-card.is-flipped { background: var(--gold-soft); border-color: #e6d7aa; }
 .word-front, .word-back { height: 100%; }
 .word-back { display: none; }
 .word-card.is-flipped .word-front { display: none; }

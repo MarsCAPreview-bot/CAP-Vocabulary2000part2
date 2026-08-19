@@ -61,6 +61,35 @@ const lessons = {
       ["gather", "[ˈɡæðɚ]", "v.", "聚集；召集"], ["spread", "[sprɛd]", "v.", "傳播；展開"], ["beat", "[bit]", "v.", "打敗"],
       ["enemy", "[ˈɛnəmi]", "n.", "敵人"], ["push", "[pʊʃ]", "v.", "推；逼迫"], ["country", "[ˈkʌntri]", "n.", "國家"]
     ]
+  },
+  33: {
+    kind: "Report",
+    title: "A Business Report",
+    sentences: [
+      ["", "Below is part of a business report.", "以下是一份商業報告的部分內容。", "Below is...：倒裝語序，表示「以下是……」。"],
+      ["", "Recently, we've had many hungry customers walking in at lunchtime on weekdays.", "最近，平日午餐時間有許多飢餓的顧客走進店裡。", "have + 受詞 + V-ing：描述某人或某物正在進行的動作；we've 是 we have 的縮寫。"],
+      ["", "A new office building has opened down the street, and we've become the top choice for workers to host business partners for lunch.", "這條街上新開了一棟辦公大樓，而我們已成為上班族招待商業夥伴吃午餐的首選。", "has opened、have become 是現在完成式，表示已發生且和現在有關的事情。"],
+      ["", "What we earn from our weekday lunchtime customers now makes up just over half of our total income, but right now we aren't employing enough workers to handle it.", "目前，我們從平日午餐顧客賺得的收入占總收入的一半多一點，但現在聘用的員工不足以應付這些工作。", "What we earn... 是名詞子句作主詞，因此動詞使用單數 makes；enough + 名詞 + to V 表示「足夠……去做……」。"],
+      ["", "We need an extra waitress or two for the busy lunch hour.", "繁忙的午餐時段，我們需要多一、兩位女服務生。", "an extra + 名詞：表示「額外的一個……」；or two 表示「或兩個」。"],
+      ["", "The problem is that after lunch we have a long quiet period when there's almost no useful activities for workers to do.", "問題是午餐後有一段很長的清閒時段，幾乎沒有適合員工做的有用工作。", "The problem is that...：that 引導名詞子句作主詞補語；when 引導關係子句修飾 period。"],
+      ["", "And of course it's hard to hire anyone who will be available for just one hour!", "當然，要雇到只方便工作一小時的人也很困難！", "It is + 形容詞 + to V：做……是……的；who 引導關係子句修飾 anyone。"],
+      ["", "Therefore, we may need to make the business more active in the afternoon to solve the problem.", "因此，我們可能需要讓下午的生意更活絡，以解決這個問題。", "make + 受詞 + 形容詞：使……變得……；to solve 表示目的。"],
+      ["", "Students return in the fall, so we could introduce a student club with cheaper meals between 1:30 and 5:30 p.m.", "學生會在秋季返校，所以我們可以推出學生俱樂部，在下午一點半到五點半之間提供較便宜的餐點。", "so 連接原因與結果；between A and B 表示「在 A 與 B 之間」。"],
+      ["", "If that works, we can start interviewing new waitresses.", "如果這個方法有效，我們就可以開始面試新的女服務生。", "If + 現在式，主要子句可用 can + 原形動詞；start 後可接 V-ing。"],
+      ["", "Another option is to close between 1:30 and 5:30 p.m.", "另一個選擇是在下午一點半到五點半之間暫停營業。", "be + to V：不定詞作主詞補語，說明選擇的內容。"],
+      ["", "We have some big decisions to make and I'll call a meeting soon to discuss everything.", "我們有一些重大決定要做，我很快會召開會議來討論所有事情。", "decisions to make：to V 修飾 decisions；will + 原形動詞表示未來。"],
+    ],
+    words: [
+      ["recently", "[ˈrisəntli]", "adv.", "最近；近來"], ["lunchtime", "[ˈlʌntʃˌtaɪm]", "n.", "午餐時間"], ["top", "[tɑp]", "adj./n.", "首要的；頂端"],
+      ["choice", "[tʃɔɪs]", "n.", "選擇"], ["worker", "[ˈwɝkɚ]", "n.", "工作人員"], ["host", "[host]", "v./n.", "招待；主人"],
+      ["partner", "[ˈpɑrtnɚ]", "n.", "夥伴；合夥人"], ["customer", "[ˈkʌstəmɚ]", "n.", "顧客"], ["make up", "[mek ʌp]", "phr.", "構成；占"],
+      ["income", "[ˈɪnˌkʌm]", "n.", "收入"], ["employ", "[ɪmˈplɔɪ]", "v.", "雇用"], ["handle", "[ˈhændəl]", "v.", "處理；應付"],
+      ["extra", "[ˈɛkstrə]", "adj./n.", "額外的；額外之物"], ["waitress", "[ˈwetrəs]", "n.", "女服務生"], ["quiet", "[ˈkwaɪət]", "adj.", "安靜的；清閒的"],
+      ["period", "[ˈpɪriəd]", "n.", "一段時間；時期"], ["useful", "[ˈjusfəl]", "adj.", "有用的"], ["hire", "[haɪr]", "v.", "雇用"],
+      ["available", "[əˈveləbəl]", "adj.", "有空的；可用的"], ["therefore", "[ˈðɛrˌfɔr]", "adv.", "因此"], ["active", "[ˈæktɪv]", "adj.", "活躍的"],
+      ["solve", "[sɑlv]", "v.", "解決"], ["interview", "[ˈɪntɚˌvju]", "v./n.", "面試；訪談"], ["option", "[ˈɑpʃən]", "n.", "選擇；選項"],
+      ["decision", "[dɪˈsɪʒən]", "n.", "決定"], ["discuss", "[dɪˈskʌs]", "v.", "討論"]
+    ]
   }
 };
 
@@ -110,7 +139,7 @@ function renderUnit(unit) {
     card.className = "sentence-card";
     card.setAttribute("aria-pressed", "false");
     card.setAttribute("aria-label", `第 ${index + 1} 句：${english}。點擊查看中文和文法`);
-    card.innerHTML = `<span class="sentence-front"><span class="sentence-number">${index + 1}</span>${speaker ? `<span class="speaker">${speaker}</span>` : ""}<span class="sentence-text">${english}</span></span><span class="sentence-back"><span class="translation">${chinese}</span><span class="grammar"><strong>文法重點：</strong>${grammar}</span></span>`;
+    card.innerHTML = `<span class="sentence-front"><span class="sentence-number">${index + 1}</span>${speaker ? `<span class="speaker">${speaker}</span>` : ""}<span class="sentence-text">${english}</span></span><span class="sentence-back"><span class="back-english">${speaker ? `${speaker}: ` : ""}${english}</span><span class="translation">${chinese}</span><span class="grammar"><strong>文法重點：</strong>${grammar}</span></span>`;
     card.addEventListener("click", () => flipCard(card));
     return card;
   }));
