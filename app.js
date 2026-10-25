@@ -90,6 +90,32 @@ const lessons = {
       ["solve", "[sɑlv]", "v.", "解決"], ["interview", "[ˈɪntɚˌvju]", "v./n.", "面試；訪談"], ["option", "[ˈɑpʃən]", "n.", "選擇；選項"],
       ["decision", "[dɪˈsɪʒən]", "n.", "決定"], ["discuss", "[dɪˈskʌs]", "v.", "討論"]
     ]
+  },
+  34: {
+    kind: "News",
+    title: "AI: Two Pieces of News",
+    sentences: [
+      ["", "Here are two pieces of news that Andy collected for his school project.", "以下是安迪為學校專題蒐集的兩則新聞。", "two pieces of news：news 是不可數名詞，要用 piece 計算；that 引導關係子句修飾 news。"],
+      ["", "Scientists in Hawaii developed a program to read information from tumor samples to better understand and treat cancer.", "夏威夷的科學家開發了一套程式，用來讀取腫瘤樣本的資訊，以便更了解並治療癌症。", "developed 是 develop 的過去式；兩個 to V 分別說明程式的用途及研究目的。"],
+      ["", "The program, “JAMMIT,” uses math to understand patterns across different human cells and find out how to treat a cancer patient.", "這套名為「JAMMIT」的程式運用數學，了解不同人體細胞之間的模式，並找出治療癌症病患的方法。", "use A to V：使用 A 來做……；how to V：如何做……。"],
+      ["", "As experts continue to develop learning programs for finding possible cures, there is no doubt that there will be a big rise in AI-healthcare over the coming years.", "隨著專家持續開發尋找可能療法的學習程式，毫無疑問，未來幾年人工智慧醫療將會大幅成長。", "As 引導時間或情況子句；There is no doubt that... 表示「毫無疑問……」。"],
+      ["", "Would you like to be as smart as a computer?", "你想要和電腦一樣聰明嗎？", "Would you like to + 原形動詞？用來詢問意願；as + 形容詞 + as 表示「和……一樣……」。"],
+      ["", "A team of scientists has suggested using very tiny robots to create the “Internet of thoughts,” where knowledge could be received just by thinking it.", "一組科學家建議使用非常微小的機器人，打造「思想網路」，讓人只要思考就能接收知識。", "suggest + V-ing：建議做……；where 引導關係子句，補充說明 Internet of thoughts。"],
+      ["", "They suggest using these robots to create a direct line between the Internet and the brain, to send messages in real time.", "他們建議使用這些機器人，在網際網路和大腦之間建立直接連線，即時傳送訊息。", "between A and B：在 A 與 B 之間；in real time：即時地。"],
+      ["", "This could then allow us to link the brain with AI and create a “superbrain” that would change human history.", "如此便可能讓我們把大腦與人工智慧連結，創造出一個將改變人類歷史的「超級大腦」。", "allow + 人 + to V：允許／使某人做……；that 引導關係子句修飾 superbrain。"],
+      ["", "This “shared computer” could bring all groups together to form one truly global society.", "這部「共享電腦」可以集合所有群體，形成一個真正的全球社會。", "bring + 人／物 + together：使……聚在一起；to form 表示目的。"],
+      ["", "The project's greatest difficulty is to decide how to get these robots into the brain carefully and safely.", "這項專案最大的困難，是決定如何小心且安全地把這些機器人放入大腦。", "how to V：如何做……；carefully、safely 是副詞，用來修飾 get。"],
+    ],
+    words: [
+      ["read", "[rid]", "v.", "讀取；閱讀"], ["sample", "[ˈsæmpəl]", "n.", "樣本"], ["cancer", "[ˈkænsɚ]", "n.", "癌症"],
+      ["program", "[ˈproʊˌɡræm]", "n.", "程式；計畫"], ["continue", "[kənˈtɪnju]", "v.", "繼續"], ["cure", "[kjʊr]", "n./v.", "療法；治癒"],
+      ["doubt", "[daʊt]", "n./v.", "懷疑；疑問"], ["rise", "[raɪz]", "n./v.", "上升；增加"], ["smart", "[smɑrt]", "adj.", "聰明的"],
+      ["suggest", "[səˈdʒɛst]", "v.", "建議"], ["robot", "[ˈroʊˌbɑt]", "n.", "機器人"], ["direct", "[dəˈrɛkt]", "adj.", "直接的"],
+      ["message", "[ˈmɛsɪdʒ]", "n.", "訊息"], ["real", "[riəl]", "adj.", "真實的；實際的"], ["group", "[ɡrup]", "n.", "群體；小組"],
+      ["form", "[fɔrm]", "v.", "形成"], ["society", "[səˈsaɪəti]", "n.", "社會"], ["project", "[ˈprɑdʒɛkt]", "n.", "專案；專題"],
+      ["difficulty", "[ˈdɪfəkəlti]", "n.", "困難"], ["decide", "[dɪˈsaɪd]", "v.", "決定"], ["carefully", "[ˈkɛrfəli]", "adv.", "小心地"],
+      ["tumor", "[ˈtumɚ]", "n.", "腫瘤"], ["cell", "[sɛl]", "n.", "細胞"], ["AI", "[ˌeɪˈaɪ]", "abbr.", "人工智慧" ]
+    ]
   }
 };
 
