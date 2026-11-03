@@ -1,4 +1,88 @@
 const lessons = {
+  28: {
+    kind: "Article",
+    title: "Deal with People Like Animals",
+    sentences: [
+      ["", "Everyone has something in common. We all have to deal with difficult people. It's never easy.", "每個人都有共同之處。我們都必須應付難相處的人，而這從來都不容易。", "have...in common：有共同之處；have to + 原形動詞：必須做……。"],
+      ["", "If you take a few tips from the animal kingdom, though, it can be a little bit easier.", "不過，如果你從動物王國學幾個方法，事情可能會容易一些。", "If 引導條件句；a few + 複數名詞表示「幾個」。"],
+      ["", "When you face a difficult person, think of a big angry elephant coming toward you.", "當你面對難相處的人時，想像一頭生氣的大象正朝你走來。", "When 引導時間子句；think of + 名詞／V-ing：想到……。"],
+      ["", "What should you do? Move out of the way, of course! Just let the elephant pass by.", "你應該怎麼做？當然是讓開！就讓大象經過吧。", "should + 原形動詞表示建議；let + 受詞 + 原形動詞：讓……做……。"],
+      ["", "Similarly, when negative people are around you, don't try to fight or argue with them.", "同樣地，當負面的人在你身邊時，不要試著和他們打架或爭辯。", "don't + 原形動詞是祈使句的否定；argue with + 人：和某人爭辯。"],
+      ["", "Difficult people behave like bees. They fly around because they want you to fight with them.", "難相處的人表現得像蜜蜂。他們四處飛，因為想要你和他們爭鬥。", "behave like：表現得像……；want + 人 + to V：想要某人做……。"],
+      ["", "Stay calm around them. Be ready for anything they might do.", "在他們身邊要保持冷靜，並準備面對他們可能做的任何事。", "Stay／Be + 形容詞是祈使句；might 表示「可能」。"],
+      ["", "Sometimes, you can't avoid a difficult person. So, be an eagle. Fly high above them.", "有時你無法避開難相處的人。所以，當一隻老鷹，高高飛在他們上方。", "avoid + 名詞／V-ing：避開……；above 表示「在……上方」。"],
+      ["", "When you see them from far away, you'll understand them better.", "當你從遠處看他們時，你會更了解他們。", "When + 現在式，主要子句可用 will 表示未來；better 是比較級。"],
+      ["", "Or, you can be a hyena. Hyenas laugh at everything.", "或者，你可以當一隻鬣狗。鬣狗會嘲笑一切。", "laugh at：嘲笑；can + 原形動詞表示能力或選擇。"],
+      ["", "Find the humor in a difficult situation and make a joke. People can't be mad if they're laughing.", "在困難的處境中找出幽默並開個玩笑。人們笑著時就無法生氣。", "make a joke：開玩笑；if 引導條件句；they're 是 they are。"],
+    ],
+    words: [
+      ["deal", "[dil]", "v.", "處理；應付"], ["in common", "[ɪn ˈkɑmən]", "phr.", "共同的"], ["difficult", "[ˈdɪfəkəlt]", "adj.", "困難的；難相處的"],
+      ["easy", "[ˈizi]", "adj.", "容易的"], ["tip", "[tɪp]", "n.", "建議；訣竅"], ["kingdom", "[ˈkɪŋdəm]", "n.", "王國；領域"],
+      ["angry", "[ˈæŋɡri]", "adj.", "生氣的"], ["toward", "[tɔrd]", "prep.", "朝向"], ["negative", "[ˈnɛɡətɪv]", "adj.", "負面的"],
+      ["argue", "[ˈɑrɡju]", "v.", "爭論"], ["behave", "[bɪˈhev]", "v.", "表現；行為"], ["fly", "[flaɪ]", "v.", "飛"],
+      ["calm", "[kɑm]", "adj.", "冷靜的"], ["avoid", "[əˈvɔɪd]", "v.", "避開"], ["eagle", "[ˈiɡəl]", "n.", "老鷹"],
+      ["above", "[əˈbʌv]", "prep./adv.", "在……上方"], ["far", "[fɑr]", "adv.", "遠地"], ["understand", "[ˌʌndɚˈstænd]", "v.", "了解"],
+      ["humor", "[ˈhjumɚ]", "n.", "幽默"], ["joke", "[dʒok]", "n./v.", "笑話；開玩笑"], ["similarly", "[ˈsɪməlɚli]", "adv.", "同樣地"],
+      ["hyena", "[haɪˈinə]", "n.", "鬣狗；土狼"], ["situation", "[ˌsɪtʃuˈeʃən]", "n.", "處境；情況"]
+    ]
+  },
+  29: {
+    kind: "Conversation",
+    title: "Summer Camp Plans",
+    sentences: [
+      ["Eddie", "Do you have any plans for summer?", "你暑假有任何計畫嗎？", "Do you have...? 用來詢問對方是否有某物或某項計畫。"],
+      ["Cindy", "Not yet. How about you?", "還沒有。你呢？", "Not yet：還沒有；How about you? 用來反問對方的情況。"],
+      ["Eddie", "I'm signing up for a summer camp which does all-day trips to the beach.", "我要報名一個會安排整天海灘旅行的夏令營。", "現在進行式可表示已安排的未來計畫；which 引導關係子句修飾 camp。"],
+      ["Cindy", "Cool. But this summer holiday I need to be a babysitter for my nephews while the adults in my family are at work.", "真酷。不過這個暑假，家中大人上班時，我得幫姪子們當臨時保母。", "need to + 原形動詞：需要做……；while 引導同時發生的情況。"],
+      ["Eddie", "Oh, that's a pity. Won't you have any time at all over summer?", "哦，真可惜。整個暑假你完全沒有時間嗎？", "Won't...? 是否定疑問句；not...at all：完全不……。"],
+      ["Cindy", "I'm not sure, but I'll tell my parents about the camp. It's been a while since I've seen the ocean and had a bit of sea and sand.", "我不確定，但我會告訴父母這個營隊。我已經有一陣子沒看到海洋、享受海水和沙灘了。", "It's been a while since + 現在完成式：自從……已經有一段時間。"],
+      ["Eddie", "Well, I've already got a nice-looking swimsuit ready. We've earned our freedom this semester!", "嗯，我已經準備好一件好看的泳裝。我們這學期已經贏得自由了！", "現在完成式 have got／have earned 表示截至現在完成或取得的事情。"],
+      ["Cindy", "Yeah, right? I can hardly wait until the exams are over, especially physics. So what other things do they do at this camp?", "對吧？我幾乎等不及考試結束了，尤其是物理。那這個營隊還有哪些活動？", "can hardly wait：迫不及待；until 引導時間子句。"],
+      ["Eddie", "They also have a mix of evening activities, like table tennis, rock climbing, Earth Science...", "他們也有各式晚間活動，例如桌球、攀岩、地球科學等等。", "a mix of：各種……的組合；like 用來舉例。"],
+      ["Cindy", "That does sound interesting! Maybe my parents will consider letting me join in the evenings.", "那聽起來真的很有趣！也許父母會考慮讓我晚上參加。", "does + 原形動詞用來加強語氣；consider + V-ing：考慮做……。"],
+    ],
+    words: [
+      ["summer", "[ˈsʌmɚ]", "n.", "夏天"], ["yet", "[jɛt]", "adv.", "尚未；還"], ["camp", "[kæmp]", "n.", "營隊"],
+      ["beach", "[bitʃ]", "n.", "海灘"], ["cool", "[kul]", "adj.", "很棒的；涼爽的"], ["holiday", "[ˈhɑləˌde]", "n.", "假期"],
+      ["adult", "[əˈdʌlt]", "n.", "成年人"], ["nice-looking", "[ˈnaɪsˌlʊkɪŋ]", "adj.", "好看的"], ["swimsuit", "[ˈswɪmˌsut]", "n.", "泳裝"],
+      ["earn", "[ɝn]", "v.", "贏得；賺取"], ["freedom", "[ˈfridəm]", "n.", "自由"], ["semester", "[səˈmɛstɚ]", "n.", "學期"],
+      ["hardly", "[ˈhɑrdli]", "adv.", "幾乎不"], ["exam", "[ɪɡˈzæm]", "n.", "考試"], ["physics", "[ˈfɪzɪks]", "n.", "物理學"],
+      ["mix", "[mɪks]", "n.", "混合；組合"], ["evening", "[ˈivnɪŋ]", "n.", "傍晚；晚上"], ["table tennis", "[ˈtebəl ˌtɛnɪs]", "n.", "桌球"],
+      ["rock", "[rɑk]", "n.", "岩石"], ["consider", "[kənˈsɪdɚ]", "v.", "考慮"], ["join", "[dʒɔɪn]", "v.", "加入"],
+      ["babysitter", "[ˈbebiˌsɪtɚ]", "n.", "臨時保母"], ["pity", "[ˈpɪti]", "n.", "憾事；同情"], ["bit", "[bɪt]", "n.", "一點點"]
+    ]
+  },
+  30: {
+    kind: "Article · Part 3 Advanced",
+    title: "Vincent van Gogh: A Great Dutch Painter",
+    sentences: [
+      ["", "Vincent van Gogh was a great Dutch painter and these days, everybody wants to be an owner of one of his pieces of art.", "文森・梵谷是偉大的荷蘭畫家，如今每個人都想擁有他的一件藝術作品。", "want to + 原形動詞：想要做……；one of + 複數名詞：……之一。"],
+      ["", "When any of them come up for sale, they often go for millions of dollars.", "他的任何作品一上市出售，通常都會賣到數百萬美元。", "come up for sale：開始出售；go for + 金額：以某價格售出。"],
+      ["", "That wasn't always the case, though.", "不過，情況並非一直如此。", "the case：實際情況；though 放句尾表示轉折「不過」。"],
+      ["", "When Van Gogh was still alive, very few people knew his name, nor was his art appreciated.", "梵谷在世時，很少人知道他的名字，他的藝術也不受賞識。", "nor + 助動詞／be 動詞 + 主詞是倒裝句，表示「也不……」。"],
+      ["", "He and his precious works only became famous after his death at the age of 37.", "他和珍貴的作品直到他三十七歲去世後才成名。", "become famous：成名；at the age of：在……歲時。"],
+      ["", "Vincent van Gogh was one of the greatest Dutch painters. He used strong colors in his work.", "文森・梵谷是最偉大的荷蘭畫家之一。他在作品中使用強烈的色彩。", "one of the + 最高級 + 複數名詞：最……的其中之一。"],
+      ["", "Two of his most well-known works are Sunflowers and The Starry Night.", "他最知名的兩件作品是《向日葵》和《星夜》。", "well-known 是複合形容詞，表示「著名的」。"],
+      ["", "The latter even inspired a singer to write a song about the artist.", "後者甚至啟發一位歌手為這位藝術家寫了一首歌。", "the latter：後者；inspire + 人 + to V：啟發某人做……。"],
+      ["", "Besides his art, people often bring up other things when having a conversation about Van Gogh.", "除了他的藝術，人們談論梵谷時也常提起其他事情。", "besides：除了……之外；bring up：提出；when V-ing 是簡化副詞子句。"],
+      ["", "They usually talk about his mental state.", "他們通常談論他的精神狀態。", "talk about + 名詞：談論……；usually 是頻率副詞。"],
+      ["", "He wasn't in his right mind, and he spent some time in mental hospitals.", "他當時精神狀況不佳，也曾在精神病院住過一段時間。", "in one's right mind：心智正常；spend time + 地點：在某地度過時間。"],
+      ["", "Van Gogh cut off his left ear after he argued with another artist.", "梵谷和另一位藝術家爭吵後，割下了自己的左耳。", "cut off：切斷；after 引導時間子句；another + 單數名詞。"],
+      ["", "He even created works about it after.", "之後他甚至以這件事創作作品。", "create works about...：創作關於……的作品。"],
+      ["", "Though he was considered crazy, Van Gogh produced wonderful art that we still enjoy today.", "儘管他被認為瘋狂，梵谷仍創作出我們今日依然欣賞的精彩藝術。", "Though 引導讓步子句；was considered 是被動語態；that 引導關係子句。"],
+    ],
+    words: [
+      ["painter", "[ˈpentɚ]", "n.", "畫家"], ["owner", "[ˈonɚ]", "n.", "擁有者"], ["sale", "[sel]", "n.", "出售；特價"],
+      ["case", "[kes]", "n.", "情況；案例"], ["know", "[no]", "v.", "知道；認識"], ["nor", "[nɔr]", "conj.", "也不"],
+      ["appreciate", "[əˈpriʃiˌet]", "v.", "欣賞；感激"], ["precious", "[ˈprɛʃəs]", "adj.", "珍貴的"], ["latter", "[ˈlætɚ]", "n./adj.", "後者；後面的"],
+      ["inspire", "[ɪnˈspaɪr]", "v.", "啟發"], ["artist", "[ˈɑrtɪst]", "n.", "藝術家"], ["besides", "[bɪˈsaɪdz]", "prep./adv.", "除……之外"],
+      ["bring up", "[brɪŋ ʌp]", "phr.", "提出；提起"], ["conversation", "[ˌkɑnvɚˈseʃən]", "n.", "交談"], ["usually", "[ˈjuʒuəli]", "adv.", "通常"],
+      ["state", "[stet]", "n.", "狀態"], ["mind", "[maɪnd]", "n.", "心智；想法"], ["spend", "[spɛnd]", "v.", "花費；度過"],
+      ["hospital", "[ˈhɑspɪtəl]", "n.", "醫院"], ["another", "[əˈnʌðɚ]", "adj./pron.", "另一個"], ["crazy", "[ˈkrezi]", "adj.", "瘋狂的"],
+      ["wonderful", "[ˈwʌndɚfəl]", "adj.", "精彩的"], ["Dutch", "[dʌtʃ]", "adj.", "荷蘭的"], ["starry", "[ˈstɑri]", "adj.", "布滿星星的"],
+      ["mental", "[ˈmɛntəl]", "adj.", "精神的；心理的"]
+    ]
+  },
   31: {
     kind: "Group Chat",
     title: "Joining a Club",
