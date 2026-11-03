@@ -116,6 +116,73 @@ const lessons = {
       ["difficulty", "[ˈdɪfəkəlti]", "n.", "困難"], ["decide", "[dɪˈsaɪd]", "v.", "決定"], ["carefully", "[ˈkɛrfəli]", "adv.", "小心地"],
       ["tumor", "[ˈtumɚ]", "n.", "腫瘤"], ["cell", "[sɛl]", "n.", "細胞"], ["AI", "[ˌeɪˈaɪ]", "abbr.", "人工智慧" ]
     ]
+  },
+  35: {
+    kind: "Preface",
+    title: "How I Turned My Life Around",
+    sentences: [
+      ["", "Here is the preface of Jack White's new book How I Turned My Life Around.", "以下是傑克・懷特的新書《我如何扭轉人生》的序言。", "Here is...：表示「這裡是／以下是……」；How I Turned My Life Around 是書名。"],
+      ["", "People are often surprised by how I became the world's best fitness coach.", "人們常常對於我如何成為世界頂尖的健身教練感到驚訝。", "be surprised by：對……感到驚訝；how 引導名詞子句。"],
+      ["", "Well, most people don't know this, but I used to be chubby.", "其實，大多數人不知道，我以前曾經很胖。", "used to + 原形動詞：表示過去曾經如此，但現在已經不同。"],
+      ["", "Actually, I was overweight.", "事實上，我當時體重過重。", "Actually 放在句首補充或修正前面的說法，表示「事實上」。"],
+      ["", "This was because I spent all my time and effort developing video games.", "這是因為我把所有時間和精力都花在開發電玩遊戲上。", "spend + 時間／精力 + V-ing：花時間或精力做……。"],
+      ["", "Sounds like every teenager's dream, right?", "聽起來像每個青少年的夢想，對吧？", "sound like + 名詞：聽起來像……；right? 用來確認對方是否同意。"],
+      ["", "For some time it was. But I became lazy.", "有一段時間的確如此，但我變得懶惰。", "for some time：有一段時間；became 是 become 的過去式。"],
+      ["", "I spent so much time looking at a computer screen that I didn't have any energy left to exercise.", "我花太多時間盯著電腦螢幕，以致沒有任何力氣運動。", "so + 形容詞／much + 名詞 + that：如此……以致於……；have...left 表示「剩下……」。"],
+      ["", "I ate burgers every day and my health was going in the wrong direction.", "我每天吃漢堡，健康狀況也朝錯誤的方向發展。", "was going 是過去進行式；in the wrong direction：朝錯誤的方向。"],
+      ["", "I even started to hate myself.", "我甚至開始討厭自己。", "start to + 原形動詞：開始做……；myself 是反身代名詞。"],
+      ["", "Then, I ended up in hospital.", "後來，我最終住進了醫院。", "end up + 地點／狀態：最後處於某地或某種情況。"],
+      ["", "When the doctor said I was lucky to not be dead, it was a terrible feeling.", "醫生說我很幸運沒有死時，那種感覺非常可怕。", "When 引導時間子句；be lucky to V：很幸運能……。"],
+      ["", "I was frightened and began thinking about my life.", "我很害怕，並開始思考自己的人生。", "begin + V-ing：開始做……；frightened 描述人的感受。"],
+      ["", "I realized I had to make a change.", "我明白自己必須做出改變。", "realize + 子句：意識到……；had to 是 have to 的過去式。"],
+      ["", "I had to burn off this fat so I could see my belt again.", "我必須燃燒掉這些脂肪，才能再次看見自己的腰帶。", "burn off：消耗、燃燒掉；so 表示結果或目的。"],
+      ["", "So I turned my life around. Now look at me!", "所以我扭轉了人生。現在看看我！", "turn...around：使……徹底好轉；look at 是「看……」。"],
+      ["", "Whenever I think back to that time I was at death's door, it reminds me to eat healthier, work out harder, and just be the best me I can be.", "每當我回想起那段命懸一線的日子，它就提醒我要吃得更健康、更加努力運動，並成為最好的自己。", "Whenever：每當；remind + 人 + to V：提醒某人做……；at death's door：命危。"],
+      ["", "So my advice? Stay positive.", "所以我的建議呢？保持正向。", "Stay + 形容詞：保持某種狀態，是祈使句。"],
+      ["", "Always be brave, and never accept failure.", "永遠要勇敢，絕不要接受失敗。", "Always／never + 原形動詞：祈使句中表示「總是／絕不……」。"],
+      ["", "Because no goal is impossible.", "因為沒有任何目標是不可能的。", "no + 單數名詞表示「沒有任何……」；impossible 表示「不可能的」。"],
+    ],
+    words: [
+      ["preface", "[ˈprɛfəs]", "n.", "序言；前言"], ["fitness", "[ˈfɪtnəs]", "n.", "健康；健身"], ["coach", "[kotʃ]", "n.", "教練"],
+      ["chubby", "[ˈtʃʌbi]", "adj.", "圓胖的"], ["overweight", "[ˌovɚˈwet]", "adj.", "過重的"], ["develop", "[dɪˈvɛləp]", "v.", "開發；發展"],
+      ["teenager", "[ˈtinˌedʒɚ]", "n.", "青少年"], ["exercise", "[ˈɛksɚˌsaɪz]", "v./n.", "運動"], ["burger", "[ˈbɝɡɚ]", "n.", "漢堡"],
+      ["health", "[hɛlθ]", "n.", "健康"], ["direction", "[dəˈrɛkʃən]", "n.", "方向"], ["hate", "[het]", "v.", "討厭"],
+      ["dead", "[dɛd]", "adj.", "死亡的"], ["feeling", "[ˈfilɪŋ]", "n.", "感覺"], ["frightened", "[ˈfraɪtənd]", "adj.", "害怕的"],
+      ["begin", "[bɪˈɡɪn]", "v.", "開始"], ["realize", "[ˈriəˌlaɪz]", "v.", "了解；意識到"], ["burn off", "[bɝn ɔf]", "phr.", "燃燒掉；消耗"],
+      ["fat", "[fæt]", "n.", "脂肪"], ["belt", "[bɛlt]", "n.", "腰帶"], ["work out", "[wɝk aʊt]", "phr.", "健身；運動"],
+      ["positive", "[ˈpɑzətɪv]", "adj.", "正向的；積極的"], ["failure", "[ˈfeljɚ]", "n.", "失敗"], ["goal", "[ɡol]", "n.", "目標"],
+      ["impossible", "[ɪmˈpɑsəbəl]", "adj.", "不可能的"]
+    ]
+  },
+  36: {
+    kind: "Article · Part 3 Advanced",
+    title: "A Computer That Writes Poetry",
+    sentences: [
+      ["", "The famous English writer, William Shakespeare, wrote plays and poems.", "著名的英國作家威廉・莎士比亞寫過戲劇和詩。", "William Shakespeare 是同位語，補充說明 the famous English writer；wrote 是 write 的過去式。"],
+      ["", "His poems, known as sonnets, have a unique pattern that makes them difficult to write.", "他的詩被稱為十四行詩，具有獨特的形式，使它們難以創作。", "known as... 是過去分詞片語；make + 受詞 + 形容詞：使……變得……。"],
+      ["", "That didn't stop scientists, though.", "然而，那並沒有阻止科學家。", "stop + 人：阻止某人；though 放句尾表示「然而」。"],
+      ["", "A team trained a computer to write poetry like Shakespeare.", "一個團隊訓練電腦像莎士比亞一樣寫詩。", "train + 受詞 + to V：訓練……做……；like 表示「像……一樣」。"],
+      ["", "First, they entered nearly 3,000 sonnets into a computer.", "首先，他們把將近三千首十四行詩輸入電腦。", "enter A into B：把 A 輸入 B；nearly 表示「將近」。"],
+      ["", "Then, they developed a special program that allowed the computer to learn and follow the rules of poetry.", "接著，他們開發一套特殊程式，讓電腦學習並遵循詩歌規則。", "allow + 受詞 + to V：使／允許……做……；that 引導關係子句修飾 program。"],
+      ["", "They were surprised to discover that the computer was able to create sonnets that are so good that ordinary readers can't tell that a machine wrote them!", "他們驚訝地發現，電腦能創作出非常好的十四行詩，好到一般讀者無法判斷是由機器寫的！", "be surprised to V：對做……感到驚訝；so...that...：如此……以致於……。"],
+      ["", "That doesn't mean they're perfect, though.", "然而，那並不表示這些詩是完美的。", "mean + 子句：表示／意味著……；they're 是 they are 的縮寫。"],
+      ["", "The computer follows the rules of poetry more closely than human writers.", "電腦比人類作家更嚴格地遵循詩歌規則。", "副詞比較級 more closely than：比……更仔細／嚴格地。"],
+      ["", "However, the small mistakes in word choice helped experts to detect that the sonnets were written by a machine.", "然而，用字上的小錯誤幫助專家察覺這些十四行詩是由機器寫成的。", "were written 是被動語態；help + 人 + (to) V：幫助某人做……。"],
+      ["", "They also commented that the computer's poetry lacked emotion and feeling.", "他們也評論，電腦創作的詩缺乏情緒和感情。", "comment that + 子句：評論……；lack + 名詞：缺乏……。"],
+      ["", "This news doesn't really bother the scientists—it gives them something else to teach their bright machine student.", "這項消息其實沒有困擾科學家——它反而讓他們有其他東西可以教這位聰明的機器學生。", "give + 人 + 事物：給某人某物；something to V：可以用來做……的事物。"],
+      ["", "Their poet is sure to keep on improving.", "他們的詩人一定會持續進步。", "be sure to V：一定會……；keep on + V-ing：持續做……。"],
+      ["", "It might even be more famous than Shakespeare one day.", "有一天，它甚至可能比莎士比亞更有名。", "might + 原形動詞：可能……；more...than 是比較級。"],
+    ],
+    words: [
+      ["poem", "[ˈpoəm]", "n.", "詩"], ["pattern", "[ˈpætɚn]", "n.", "模式；形式"], ["stop", "[stɑp]", "v.", "阻止；停止"],
+      ["scientist", "[ˈsaɪəntɪst]", "n.", "科學家"], ["train", "[tren]", "v.", "訓練"], ["enter", "[ˈɛntɚ]", "v.", "輸入；進入"],
+      ["allow", "[əˈlaʊ]", "v.", "允許；使能夠"], ["rule", "[rul]", "n.", "規則"], ["surprised", "[sɚˈpraɪzd]", "adj.", "感到驚訝的"],
+      ["discover", "[dɪˈskʌvɚ]", "v.", "發現"], ["create", "[kriˈet]", "v.", "創造"], ["ordinary", "[ˈɔrdəˌnɛri]", "adj.", "普通的"],
+      ["follow", "[ˈfɑlo]", "v.", "遵循；跟隨"], ["mistake", "[mɪˈstek]", "n.", "錯誤"], ["detect", "[dɪˈtɛkt]", "v.", "察覺；偵測"],
+      ["comment", "[ˈkɑmɛnt]", "v./n.", "評論"], ["lack", "[læk]", "v./n.", "缺乏"], ["emotion", "[ɪˈmoʊʃən]", "n.", "情緒"],
+      ["bother", "[ˈbɑðɚ]", "v.", "困擾"], ["bright", "[braɪt]", "adj.", "聰明的；明亮的"], ["poetry", "[ˈpoətri]", "n.", "詩歌（總稱）"],
+      ["expert", "[ˈɛkspɝt]", "n.", "專家"], ["sonnet", "[ˈsɑnət]", "n.", "十四行詩"]
+    ]
   }
 };
 
